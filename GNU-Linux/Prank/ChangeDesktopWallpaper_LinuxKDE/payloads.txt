@@ -8,34 +8,16 @@ REM # Target       : Linux (KDE based)        |
 REM #                                         |
 REM ###########################################
 
-REM Requirements:
-REM     - Internet Connection
+REM Paste text:
 
 DELAY 1000
-CTRL-ALT t
-DELAY 2000
-
-REM Replace 'example.com/IMAGE_NAME' with your image link
-STRING wget example.com/IMAGE_NAME
-ENTER
-
-
-REM It depends by the Internet Connection
-DELAY 2000
-
-STRING qdbus org.kde.plasmashell /PlasmaShell org.kde.PlasmaShell.evaluateScript 'var allDesktops = desktops();for (i=0;i<allDesktops.length;i++) {d = allDesktops[i]; d.wallpaperPlugin = "org.kde.image";d.currentConfigGroup = Array("Wallpaper", "org.kde.image", "General");d.writeConfig("Image", "
-REM 
-REM Replace example.jpg with the image path, for example /home/USERNAME/example.jpg
-REM 
-STRING file://example.jpg
-STRING ")}'
-ENTER
-DELAY 1000
-
-STRING rm -rf 
-REM 
-REM Replace example.jpg with the image path, for example /home/USERNAME/example.jpg
-REM 
-STRING file://example.jpg
-STRING ;history -c; exit;
-ENTER
+STRING Konsten att ta det lugnt
+STRING I en tid präglad av konstant rörelse och höga krav är konsten att ta det lugnt viktigare än någonsin. Stress omger oss dagligen, vilket gör att vi ofta glömmer vikten av att STRING stanna upp och andas. Att lära sig att ta det lugnt är en livsnödvändighet för vår mentala och fysiska hälsa.
+STRING I vår moderna värld där teknologin gör att vi alltid är uppkopplade, är det lätt att känna sig överväldigad. Enligt Wikipedia kan långvarig stress leda till allvarliga STRINGhälsoproblem som hjärt-kärlsjukdomar, ångest och depression. Det blir allt viktigare att finna sätt att hantera stress och skapa utrymme för avkoppling.
+STRINGFör det första handlar det om att ge sig själv tillåtelse att stanna upp. Många av oss värderar produktivitet högre än vårt eget välbefinnande. Vi rusar igenom våra dagar och STRINGsträvar efter att hinna med så mycket som möjligt. Men att stanna upp och ge sig tid för reflektion kan vara den mest produktiva handlingen av alla. I dessa stunder av  STRING stillhet får vi ofta nya insikter om våra liv.
+STRING Att ta det lugnt handlar också om att vara medveten i nuet. Mindfulness, en teknik med rötter i buddhismen, innebär att uppmärksamma nuet utan att döma. Genom att praktisera STRING mindfulness kan vi lära oss att uppskatta de små stunderna i livet, som en kopp kaffe på morgonen. Det är i dessa ögonblick av medvetenhet som vi verkligen kan uppleva livet.
+STRING Ett enkelt sätt att börja ta det lugnt är att skapa rutiner för avkoppling. Det kan vara att läsa en bok, meditera eller ta en promenad i naturen. Regelbundna 
+STRING avkopplingsaktiviteter kan minska stressnivåer och förbättra vårt allmänna välbefinnande.
+STRING Att lära sig konsten att ta det lugnt är en livslång resa som kräver övning, men belöningarna är stora. Genom att prioritera lugn kan vi förbättra våra liv och njuta av de STRING små glädjeämnena.
+STRING Källa:
+STRING Wikipedia - Stress
