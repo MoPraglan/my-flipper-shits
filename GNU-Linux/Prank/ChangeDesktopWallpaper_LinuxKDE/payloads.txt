@@ -11,31 +11,5 @@ REM ###########################################
 REM Requirements:
 REM     - Internet Connection
 
-DELAY 1000
-CTRL-ALT t
-DELAY 2000
-
-REM Replace 'example.com/IMAGE_NAME' with your image link
-STRING wget example.com/IMAGE_NAME
-ENTER
-
-
-REM It depends by the Internet Connection
-DELAY 2000
-
-STRING qdbus org.kde.plasmashell /PlasmaShell org.kde.PlasmaShell.evaluateScript 'var allDesktops = desktops();for (i=0;i<allDesktops.length;i++) {d = allDesktops[i]; d.wallpaperPlugin = "org.kde.image";d.currentConfigGroup = Array("Wallpaper", "org.kde.image", "General");d.writeConfig("Image", "
-REM 
-REM Replace example.jpg with the image path, for example /home/USERNAME/example.jpg
-REM 
-STRING file://example.jpg
-STRING ")}'
-ENTER
-DELAY 1000
-
-STRING rm -rf 
-REM 
-REM Replace example.jpg with the image path, for example /home/USERNAME/example.jpg
-REM 
-STRING file://example.jpg
-STRING ;history -c; exit;
-ENTER
+DELAY 500
+STRING Konsten att ta det lugnt I en värld som ständigt rusar framåt, där tekniken har gjort oss tillgängliga dygnet runt och samhällets förväntningar bara tycks öka, har det blivit allt svårare att finna ro. Stress är idag en del av vardagen för många, inte bara för vuxna utan även för barn och ungdomar. När vi talar om stress är det som om vi bär en osynlig ryggsäck, full av tyngder som vi själva inte har valt att bära. Det kan handla om krav på prestation i skolan, förväntningar från omgivningen eller den aldrig sinande strömmen av aktiviteter som vi känner att vi borde delta i. Frågan är: finns det ens plats för lugn i dagens samhälle? Varför stressar vi så mycket? En orsak till stressens utbredning är att vi lever i en tid där valmöjligheterna är fler än någonsin. På sociala medier ser vi ständigt glimtar av andras perfekta liv – resor, framgångar och välpolerade fasader – vilket gör att vi börjar jämföra oss. Den här jämförelsen leder ofta till att vi känner att vi borde göra mer, vara bättre och hinna med allt. Det finns också ett slags kollektiv förväntan på att alltid vara produktiv, att aldrig stå stilla. Att vara upptagen har blivit en statussymbol. Den som har fullt upp tycks leva ett meningsfullt liv, medan den som har tid att ta det lugnt ofta betraktas som lat eller ointresserad. Skolan, fritidsaktiviteter och sociala förväntningar lägger alla sitt tryck på ungdomar. Många har en kalender som är fulltecknad med träningar, läxor och sociala evenemang. Det är lätt att tappa bort sig själv i allt detta – att bli en del av ekorrhjulet utan att reflektera över vad man egentligen vill. Går det att leva ett lugnt liv i dagens samhälle? Frågan är om det över huvud taget är möjligt att leva ett lugnt liv i en tid där vi ständigt är uppkopplade och där tempot aldrig saktar ner. Svaret är kanske inte så enkelt som vi skulle önska. Men ett första steg mot lugn är att medvetet välja bort det som stressar oss. Precis som en trädgård behöver rensas från ogräs för att växterna ska kunna frodas, behöver vi rensa bort onödiga aktiviteter och förväntningar för att kunna hitta ro. Att säga nej är en konst i sig. Hur finner vi lugnet? Det finns inga enkla svar på hur vi kan finna lugnet i en stressig vardag, men vissa metoder kan hjälpa oss på vägen. En sådan metod är att skapa små pauser i vardagen – att våga stanna upp och andas. Kanske är det en promenad i skogen, en stund med en bra bok eller bara att sitta ner och reflektera över dagen. Genom ett öppet tankesätt och meditation kan vi också träna oss på att vara närvarande i nuet, att inte hela tiden oroa oss för framtiden eller fastna i det förflutna. Ett annat tips är att försöka minska skärmtiden. Vi behöver inte vara tillgängliga hela tiden, och ibland är det okej att missa vad som händer på sociala medier. Livet sker här och nu, inte på en skärm. Avslutning Konsten att ta det lugnt handlar till stor del om att hitta en balans mellan aktivitet och vila. Det är viktigt att inse att vi inte behöver vara perfekta, och att det är helt okej att ta en paus. Vi är trots allt inte maskiner. Det lugn vi söker finns ofta närmare än vi tror – vi behöver bara våga stanna upp och lyssna till oss själva
